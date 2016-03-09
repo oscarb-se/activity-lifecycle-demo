@@ -15,39 +15,41 @@ public class MainActivity extends AppCompatActivity {
         Fundera också på - vilka tillstånd gick appen mellan?
      */
 
+
+    // Metoden körs när appen startar
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Log.i("Activity Lifecycle", "Metoden onCreate() körs!");
     }
-
+    // Metoden körs när appen förstörs // Henry
     @Override
     protected void onDestroy() {
         super.onDestroy();
     }
-
+    // Metoden körs när appen pausar // Henry
     @Override
     protected void onPause() {
         super.onPause();
     }
-
+    // Metoden körs när appen startar om // Henry
     @Override
     protected void onRestart() {
         super.onRestart();
         
     }
-
+    // Metoden körs när appen körs igen // Henry
     @Override
     protected void onResume() {
         super.onResume();
     }
-
+    // Metoden körs när appen startar om // Henry
     @Override
     protected void onStart() {
         super.onStart();
     }
-
+    // Metoden körs när appen slutar // Henry
     @Override
     protected void onStop() {
         super.onStop();
